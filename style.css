@@ -1,0 +1,602 @@
+/* Styling For Index.html */
+.home{
+    text-decoration: none;
+    margin: 10px;
+    color: #003366;
+}
+html, body{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+    scroll-behavior: smooth;
+}
+body{
+    font-size: 16px;
+}
+.headerlink{
+    text-decoration: none;
+    color: #003366;
+}
+header{
+    justify-content: space-between;
+    display: flex;
+    padding: 10px 20px;
+    align-items: center;
+}
+.navbar{
+    /* background-color: #003366; */
+    padding: 10px 20px;
+    
+}
+.navbar a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #003366;
+    transition: color 0.3s ease;
+    padding: 10px;
+    margin: 0 5px;
+}
+.navbar a.active{
+    color:#ffa500;
+    font-weight: bold;
+}
+.navbar a:hover{
+    color: #ffa500;
+}
+
+/* main content */
+.main{
+    text-align: center;
+    background-color: #003366;
+    padding: 50px 20px;
+    color: white;
+}
+.main h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.main p{
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+.btn{
+    text-decoration: none;
+    padding: 10px 20px;
+    color: white;
+    background-color: #ffa500;
+    border-radius: 5px;
+    margin: 5px;
+}
+.btn.secondary{
+    background-color: transparent;
+    border: 2px solid #ffa500;
+}
+.btn:hover{
+    background-color: #ff7f00;
+}
+
+/* Services */
+.services{
+    background-color: #f5f5f5;
+    text-align: center;
+    padding: 50px 20px;
+}
+.service-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.service-items{
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 250px;
+}
+.service-items h3{
+    margin-bottom: 10px;
+}
+
+/* reviews */
+.reviews{
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #e6e6e6;
+}
+blockquote{
+    font-style: italic;
+    margin: 10px 0;
+}
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #002147;
+    color: white;
+}
+.footer-links {
+    margin: 10px 0;
+}
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1.5rem;
+}
+.footer-links i {
+    margin: 0 8px;
+}
+.footer-links a:hover {
+    color: #f4b400;
+}
+.footer-privacy {
+    margin-top: 10px;
+}
+.footer-privacy a {
+    color: white;
+    text-decoration: none;
+}
+.footer-privacy a:hover {
+    text-decoration: underline;
+}
+.social-links{
+    margin: 10px;
+}
+.social-links p{
+    font-weight: bold;
+}
+.contact{
+    margin: 10px;
+}
+.contact p{
+    color: #ffa500;
+}
+.privacy{
+    margin-top: 20px;
+}
+.privacy a{
+    margin: 0 10px;
+}
+
+
+
+/* Styling for About.html */
+.about-main{
+    background: linear-gradient(to right, #002147, #004080);
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+.about-main h1{
+    font-size:2.5rem;
+    margin-bottom:15px;
+}
+.about-main p{
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #f8f9fa;
+}
+.btn-group .btn{
+    padding: 12px 20px;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius:5px ;
+    text-align: center;
+    flex: 1;
+    min-width: 150px;
+    max-width: 200px;
+}
+.btn-group{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+.btn-primary{
+    background-color: #ffcc00 ;
+    color: black;
+}
+.btn-secondary{
+    background-color: #007bff;
+    color: white;
+}
+.btn:hover{
+    opacity: 0.8;
+}
+.twobtn{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+.twobtn .btn{
+    flex: 1;
+    min-width: 150px;
+    max-width: 200px;
+    text-align: center;
+}
+
+/* Gallery grid */
+.gym-gallery{
+    padding:60px 20px;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+.gym-gallery h2{
+    font-size: 2rem;
+    color: #002147;
+    margin-bottom: 15px;
+}
+.gym-gallery p{
+    font-size:1.1rem;
+    color:#6c757d;
+    margin-bottom: 30px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    gap: 20px;
+}
+.item{
+    text-align: center;
+}
+.item img{
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.item figcaption{
+    margin-top: 10px;
+    font-size: 1rem;
+    color:#6c757d;
+    font-weight: bold;
+}
+.item:hover{
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* trainer card */
+.trainers{
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #ffffff;
+}
+.trainers h2{
+    font-size: 2em;
+    color: #002147;
+    margin-bottom: 15px;
+}
+.trainer-cards{
+    display: flex;
+    gap:20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card-item{
+    background: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+    border-radius:10px ;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 250px;
+}
+.card-item img{
+    width: 100%;
+}
+.card-item:hover{
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* features */
+.purpose{
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #f8f9fa;
+}
+.purpose h2{
+    font-size: 2rem;
+    color:#002147;
+    margin-bottom: 15px;
+}
+.purpose p{
+    font-size: 1.1rem;
+    color: #6c757d;
+    margin-bottom: 30px;
+}
+.features{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.feature{
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 280px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2)
+}
+.feature img{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.feature h3{
+    font-size: 1.3rem;
+    color: #6c757d;
+}
+
+/* button */
+.cta{
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #002147;
+    color: #ffffff;
+}
+.cta h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.cta p{
+    font-size: 1.1em;
+    margin-bottom: 30px;
+}
+.cta .btn{
+    padding: 12px 25px;
+    font-size: 1.1em;
+    margin: 10px;
+}
+.cta .btn-primary{
+    background-color: #ffcc00;
+    border: none;
+    color: #002147;
+}
+.cta.btn:hover{
+    opacity: 0.8;
+}
+
+
+
+/* Login Page */
+.login-container{
+    text-align: center;
+    padding: 60px 20px;
+}
+.container1{
+    max-width: 400px;
+    margin: auto;
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2)
+}
+input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px -10px;
+    border: 1px solid #ccc;
+    border-radius:5px;
+}
+.submit-btn{
+    background-color: #002147;
+    color: white;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    cursor:pointer;
+    border-radius: 5px;
+}
+.submit-btn:hover{
+    opacity: 0.8;
+}
+.login-container p{
+    margin-top: 10px;
+}
+.login-container a{
+    color: #ffcc00;
+    text-decoration: none;
+}
+.login-container a:hover{
+    text-decoration: underline;
+}
+.social-login{
+    text-align: center;
+    margin-top: 15px;
+}
+.social-login a{
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+}
+.google-btn{
+    background-color: #db4437;
+}
+.facebook-btn{
+    background-color: #1877f2;
+}
+.social-login i{
+    margin-right: 8px;
+}
+
+
+
+/* pricing page */
+.pricing {
+     text-align: center;
+     padding: 60px 20px;
+     background-color: #f8f9fa;
+}
+.pricing h2{
+    font-size: 2rem;
+    color:#002147;
+    margin-bottom: 30px;
+}
+.pricing-cards{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap:wrap;
+}
+.card{
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.gold{
+    background: linear-gradient(to bottom, #ffd700, #e6c300);
+    color: #002147;
+}
+.diamond{
+    background: linear-gradient(to bottom, #b9f2ff, #c0c0c0);
+    color: #002147;
+}
+.basic{
+    background: linear-gradient(to bottom, #e5e4e2, #c0c0c0);
+    color: #002147;
+}
+.card h3{
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+.card p{
+    font-size: 1em;
+    margin-bottom: 15px;
+}
+.card h4{
+    font-size: 1.3em;
+    margin-bottom: 20px;
+}
+
+
+
+/* contact us page */
+.contact-us {
+    text-align: center;
+    padding: 60px 20px;
+}
+.contact-us h2 {
+    font-size: 2rem;
+    color: #002147;
+    margin-bottom: 30px;
+}
+.contact-details {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.info {
+    width: 45%;
+    text-align: left;
+}
+.info h3 {
+    color: #002147;
+    margin-top: 10px;
+}
+.form-container {
+    width: 45%;
+    text-align: left;
+}
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px -10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+textarea {
+    height: 100px;
+}
+.map iframe {
+    width: 100%;
+    height: 300px;
+    border: 0;
+    margin-top: 20px;
+}
+.trainer {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #f8f9fa;
+}
+.trainer h2 {
+    font-size: 2rem;
+    color: #002147;
+    margin-bottom: 15px;
+}
+.trainer p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+.trainer form {
+    max-width: 600px;
+    margin: auto;
+}
+.trainer input, .trainer textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.trainer textarea {
+    height: 100px;
+}
+
+/* responsiveness */
+@media(max-width:768px){
+    .container, .container1{
+        width: 90%;
+        padding: 10px;
+    }
+    .navbar{
+        flex-direction: column;
+        text-align: center;
+    }
+    .navbar a{
+        display: block;
+        padding: 10px;
+    }
+    .hero-content{
+        text-align: center;
+        padding: 20px;
+    }
+    .pricing-cards{
+        margin-bottom: 20px;
+    }
+    .card{
+        margin-bottom: 20px;
+    }
+    .trainers, .gym-gallery{
+        display: block;
+        text-align: center;
+    }
+    .form-container input, .form-container textarea{
+        width: 90%;
+    }
+    /* .footer{
+        text-align: center;
+        padding: 10px; 
+    } */
+    .btn-group, .twobtn{
+        flex-direction: column;
+        align-items: center;
+    }
+    .btn-group .btn, .twobtn .btn{
+        width: 100%;
+    }
+}

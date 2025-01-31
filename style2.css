@@ -1,0 +1,15 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content {
+    flex: 1; /* This pushes the footer to the bottom */
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+}
